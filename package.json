@@ -1,6 +1,6 @@
 {
   "name": "@headbright/sign-in-google",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Google sign in button",
   "main": "./dist/library.ssr.js",
   "module": "./dist/library.esm.js",
@@ -21,6 +21,7 @@
   "license": "MIT",
   "devDependencies": {
     "rollup": "^1.27.14",
+    "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-css-only": "^2.0.0",
     "rollup-plugin-vue": "^5.1.4",
     "vue-template-compiler": "^2.6.11"
