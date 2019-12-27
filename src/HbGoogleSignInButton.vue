@@ -1,6 +1,6 @@
 <template>
     <div ref="signinBtn" class="hb-google-signin">
-
+        <slot />
     </div>
 </template>
 
