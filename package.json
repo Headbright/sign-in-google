@@ -9,8 +9,16 @@
   "scripts": {
     "build": "rollup -c --environment BUILD:production"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Headbright/sign-in-google.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Headbright/sign-in-google/issues"
+  },
   "author": "Headbright Group <info@headbright.be> (https://www.headbright.eu/)",
-  "license": "LicenseRef-LICENSE",
+  "homepage": "https://github.com/Headbright/sign-in-google",
+  "license": "MIT",
   "devDependencies": {
     "rollup": "^1.27.14",
     "rollup-plugin-css-only": "^2.0.0",
