@@ -1,7 +1,7 @@
 <template>
-    <div ref="signinBtn" class="hb-google-signin">
+    <button ref="signinBtn" class="hb-google-signin">
         <slot />
-    </div>
+    </button>
 </template>
 
 <script>

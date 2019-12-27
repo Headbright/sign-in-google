@@ -1,6 +1,6 @@
 {
   "name": "@headbright/sign-in-google",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Google sign in button",
   "main": "dist/hb-sign-in-google.common.js",
   "module": "dist/hb-sign-in-google.esm.js",
