@@ -1,14 +1,16 @@
 {
   "name": "@headbright/sign-in-google",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Google sign in button",
-  "main": "./dist/library.ssr.js",
-  "module": "./dist/library.esm.js",
-  "browser": "./dist/library.js",
-  "unpkg": "./dist/library.js",
+  "main": "dist/hb-sign-in-google.common.js",
+  "module": "dist/hb-sign-in-google.esm.js",
   "scripts": {
     "build": "rollup -c --environment BUILD:production"
   },
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Headbright/sign-in-google.git"
@@ -20,10 +22,17 @@
   "homepage": "https://github.com/Headbright/sign-in-google",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
     "rollup": "^1.27.14",
+    "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-css-only": "^2.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-vue": "^5.1.4",
     "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
   }
 }

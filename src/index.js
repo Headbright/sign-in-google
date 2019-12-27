@@ -1,5 +1,7 @@
 import HbGoogleSignInButton from './HbGoogleSignInButton.vue'
 
-export {
-    HbGoogleSignInButton
+export default {
+    install(Vue) {
+        Vue.component('hb-google-signin-button', HbGoogleSignInButton);
+    }
 }
