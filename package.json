@@ -1,0 +1,20 @@
+{
+  "name": "@headbright/sign-in-google",
+  "version": "1.0.0",
+  "description": "Google sign in button",
+  "main": "./dist/library.ssr.js",
+  "module": "./dist/library.esm.js",
+  "browser": "./dist/library.js",
+  "unpkg": "./dist/library.js",
+  "scripts": {
+    "build": "rollup -c --environment BUILD:production"
+  },
+  "author": "Headbright Group <info@headbright.be> (https://www.headbright.eu/)",
+  "license": "LicenseRef-LICENSE",
+  "devDependencies": {
+    "rollup": "^1.27.14",
+    "rollup-plugin-css-only": "^2.0.0",
+    "rollup-plugin-vue": "^5.1.4",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
